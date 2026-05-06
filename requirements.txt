@@ -1,0 +1,4 @@
+python-dotenv>=1.0.0
+requests>=2.25.0
+pandas>=1.3.0
+minimax>=0.1.0  # Assuming this is the SDK, adjust if needed

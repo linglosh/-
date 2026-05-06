@@ -38,3 +38,61 @@
 - **其他依赖**: `requests`, `pandas`, `python-dotenv`
 
 ## 📂 项目结构
+
+```
+.
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .env.example
+├── main.py                 # 主入口文件
+├── src/
+│   ├── __init__.py
+│   └── agents/
+│       ├── __init__.py
+│       ├── base_agent.py       # 基础Agent类
+│       ├── research_agent.py   # 市场调研Agent
+│       ├── copywriting_agent.py # 文案生成Agent
+│       ├── compliance_agent.py  # 合规审核Agent
+│       └── coordinator_agent.py # 协调Agent
+└── data/
+    └── sample_data.py      # 示例数据
+```
+
+## 🚀 快速开始
+
+1. 克隆项目：
+   ```bash
+   git clone https://github.com/linglosh/-.git
+   cd -
+   ```
+
+2. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. 配置环境变量：
+   ```bash
+   cp .env.example .env
+   # 编辑 .env 文件，添加你的 MiniMax API Key
+   ```
+
+4. 运行演示：
+   ```bash
+   python main.py
+   ```
+
+## 🤝 贡献指南
+
+欢迎贡献代码！请遵循以下步骤：
+
+1. Fork 本仓库
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 创建 Pull Request
+
+## 📄 许可证
+
+本项目采用 Unlicense 许可证。
